@@ -5,7 +5,7 @@ const heartLoader = document.querySelector(".cssload-main");
 const yesBtn = document.querySelector(".js-yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("click", () => {
   const containerWidth = questionContainer.offsetWidth - noBtn.offsetWidth;
   const containerHeight = questionContainer.offsetHeight - noBtn.offsetHeight;
 
